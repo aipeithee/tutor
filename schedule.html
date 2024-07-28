@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html"><h1>HOME</h1></a>
+    <h2>Request Tutoring</h2>
+            <form id="request-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="Math">Math</option>
+                    <option value="Science">Science</option>
+                    <option value="English">English</option>
+                </select><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <p>Choose a day and time for your tutoring session:</p>
+            <form id="schedule-form">
+                <label for="day">Day:</label>
+                <select id="day" name="day">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select><br><br>
+                <label for="time">Time:</label>
+                <select id="time" name="time">
+                    <option value="9:00 AM">9:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 PM">12:00 PM</option>
+                </select><br><br>
+                <button type="submit">Schedule</button>
+            </form>
+        </body>
